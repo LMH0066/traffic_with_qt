@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>999</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(114, 159, 207)</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="1">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="Identification">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	position: relative;
+	padding: 5px 15px;
+	float: left;
+	border-radius: 3px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+	
+	font: 14pt &quot;Ubuntu Mono&quot;;
+	background-color: #e74c3c;
+	border-bottom: 5px solid #c0392b;
+	text-shadow: 0px -2px #c0392b;
+}
+QPushButton:pressed {
+	transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}</string>
+          </property>
+          <property name="text">
+           <string>Identificate</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="Seperate">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	position: relative;
+	padding: 5px 15px;
+	float: left;
+	border-radius: 3px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+	
+	font: 14pt &quot;Ubuntu Mono&quot;;
+	background-color: #e74c3c;
+	border-bottom: 5px solid #c0392b;
+	text-shadow: 0px -2px #c0392b;
+}
+QPushButton:pressed {
+	transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}</string>
+          </property>
+          <property name="text">
+           <string>Seperate</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="Playall">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	position: relative;
+	padding: 5px 15px;
+	float: left;
+	border-radius: 3px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+	
+	font: 14pt &quot;Ubuntu Mono&quot;;
+	background-color: #e74c3c;
+	border-bottom: 5px solid #c0392b;
+	text-shadow: 0px -2px #c0392b;
+}
+QPushButton:pressed {
+	transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}</string>
+          </property>
+          <property name="text">
+           <string>Playall</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="Kalman">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	position: relative;
+	padding: 5px 15px;
+	float: left;
+	border-radius: 3px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+	
+	font: 14pt &quot;Ubuntu Mono&quot;;
+	background-color: #e74c3c;
+	border-bottom: 5px solid #c0392b;
+	text-shadow: 0px -2px #c0392b;
+}
+QPushButton:pressed {
+	transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}</string>
+          </property>
+          <property name="text">
+           <string>Kalman</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	position: relative;
+	padding: 5px 15px;
+	float: left;
+	border-radius: 3px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+	
+	font: 14pt &quot;Ubuntu Mono&quot;;
+	background-color: #e74c3c;
+	border-bottom: 5px solid #c0392b;
+	text-shadow: 0px -2px #c0392b;
+}
+QPushButton:pressed {
+	transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}</string>
+          </property>
+          <property name="text">
+           <string>DecisionMaking</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout" rowstretch="1,1">
+        <item row="1" column="2">
+         <widget class="VideoWidget" name="video_4" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>250</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:1px solid #96c2f1;
+background-color: rgb(255, 255, 255);
+image: url(:/my_image/image/add.jpg);</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="VideoWidget" name="video_1" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>250</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:1px solid #96c2f1;
+background-color: rgb(255, 255, 255);
+image: url(:/my_image/image/add.jpg);</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="VideoWidget" name="video_2" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>250</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:1px solid #96c2f1;
+background-color: rgb(255, 255, 255);
+image: url(:/my_image/image/add.jpg);</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="VideoWidget" name="video_3" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>250</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:1px solid #96c2f1;
+background-color: rgb(255, 255, 255);
+image: url(:/my_image/image/add.jpg);</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>999</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QMenuBar {
+    color: white;
+}
+
+QMenuBar::item {
+    background: transparent;
+}
+
+QMenuBar::item:disabled {
+    color: gray;
+}
+
+QMenuBar::item:selected {
+    background: #222222;
+}
+
+QMenuBar::item:pressed {
+    background: #444444;
+}</string>
+   </property>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuFunction">
+    <property name="title">
+     <string>Function</string>
+    </property>
+    <addaction name="actionPointsman"/>
+   </widget>
+   <widget class="QMenu" name="menuArgument">
+    <property name="title">
+     <string> Argument</string>
+    </property>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionopen"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionmessages"/>
+    <addaction name="actiondiagram"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuArgument"/>
+   <addaction name="menuFunction"/>
+   <addaction name="menuHelp"/>
+   <addaction name="menuTools"/>
+  </widget>
+  <action name="actionPointsman">
+   <property name="text">
+    <string>Pointsman</string>
+   </property>
+  </action>
+  <action name="actionopen">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionmessages">
+   <property name="text">
+    <string>messages</string>
+   </property>
+  </action>
+  <action name="actiondiagram">
+   <property name="text">
+    <string>diagram</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>VideoWidget</class>
+   <extends>QWidget</extends>
+   <header>videowidget.h</header>
+   <container>1</container>
+   <slots>
+    <signal>clicked()</signal>
+    <slot>playVideo()</slot>
+    <slot>openCameraClicked()</slot>
+    <slot>beginSeparate()</slot>
+    <slot>beginIdentity()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Playall</sender>
+   <signal>clicked()</signal>
+   <receiver>video_1</receiver>
+   <slot>openCameraClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>987</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>136</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Playall</sender>
+   <signal>clicked()</signal>
+   <receiver>video_2</receiver>
+   <slot>openCameraClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>987</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>461</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Playall</sender>
+   <signal>clicked()</signal>
+   <receiver>video_3</receiver>
+   <slot>openCameraClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>987</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>129</x>
+     <y>451</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Playall</sender>
+   <signal>clicked()</signal>
+   <receiver>video_4</receiver>
+   <slot>openCameraClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>987</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>461</x>
+     <y>530</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Seperate</sender>
+   <signal>clicked()</signal>
+   <receiver>video_3</receiver>
+   <slot>beginSeparate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>904</x>
+     <y>58</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>356</x>
+     <y>404</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Seperate</sender>
+   <signal>clicked()</signal>
+   <receiver>video_4</receiver>
+   <slot>beginSeparate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>929</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>716</x>
+     <y>358</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Seperate</sender>
+   <signal>clicked()</signal>
+   <receiver>video_1</receiver>
+   <slot>beginSeparate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>929</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>285</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Identification</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>changeIdentity()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>854</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>851</x>
+     <y>436</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Identification</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>playVideo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>881</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>876</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Seperate</sender>
+   <signal>clicked()</signal>
+   <receiver>video_2</receiver>
+   <slot>beginSeparate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>942</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>742</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>changeIdentity()</slot>
+  <slot>playVideo()</slot>
+ </slots>
+</ui>
